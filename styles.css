@@ -1,0 +1,10 @@
+@import url('./styles/default/defaul.css');
+@import url('./styles/components/utilities.css');
+@import url('./styles/sections/header.css');
+@import url('./styles/sections/about.css');
+@import url('./styles/sections/services.css');
+@import url('./styles/sections/review.css');
+@import url('./styles/sections/faq.css');
+@import url('./styles/sections/contacts.css');
+@import url('./styles/sections/footer.css');
+@import url('./styles/mobile.css');

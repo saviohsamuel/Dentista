@@ -1,0 +1,43 @@
+#about {
+    padding-inline: 1.25rem;
+    display: flex;
+}
+.about__dra {
+    display: flex;    
+    flex-wrap: wrap;
+    align-self: center;
+    margin-block: 1.875rem;
+    img {
+        border-radius: 1.5625rem;
+    }
+    .about__texts {
+        width: 48.75rem;
+        margin-top: 1.875rem;
+        p {
+            line-height: 2.4rem;            
+        }       
+        span {
+            display: inline-block;
+            background: var(--color-tag-about);            
+            padding: .625rem;            
+            border-radius: 1.5625rem;
+            margin-top: 1.875rem;
+        }
+    }
+}
+.about__info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 2px solid var(--color-line-stroke);
+    border-radius: 1.5625rem;
+}
+.about {
+    display: flex;
+    padding: 2.5rem 6.25rem;    
+    & p:nth-child(1) {
+        background: var(--color-tag-about);
+        padding: .625rem;
+        border-radius: 1.5625rem;
+    }
+}

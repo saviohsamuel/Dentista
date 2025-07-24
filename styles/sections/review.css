@@ -1,0 +1,68 @@
+.container__review {
+    background: url('/imgs/backgrounds/bgReview.svg') no-repeat;
+    background-size: cover;  
+    border-radius: 1.5625rem;  
+    margin-inline: 1.25rem;
+    padding-block: 7.5rem 2.8125rem;
+    text-align: center;
+    position: relative;
+    & > img {
+        position: absolute;
+        left: 6.25rem;
+        top: 13.75rem;
+        width: 4.3125rem;        
+    }
+    .subtitle {
+        position: relative;
+        h2 {
+            color: var(--color-primary);
+        }    
+        img {
+            position: absolute;
+            right: 8.125rem;
+            bottom: 3.125rem;
+            width: 5.3125rem;
+            height: 4.125rem;
+        }
+    }
+    a {
+        margin-top: 1.875rem;                
+    }
+}
+.contariner__cards-review {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5625rem;
+    margin-top: 3.125rem;
+}
+.cards__review {
+    background: var(--color-secondary);
+    width: 28rem;
+    border: .625rem solid var(--color-line-stroke-review);    
+    border-radius: 1.5625rem;
+    padding: 1.875rem;      
+    display: flex;
+    flex-direction: column;
+    figure {
+        display: flex;
+        flex-direction: column;
+        align-self: self-start;
+        img {
+            width: 7.5rem;
+            height: 1.25rem;
+        }
+        figcaption {
+            align-self: self-start;
+            color: var(--color-primary);
+            margin-block: 1rem;
+            font: var(--text);
+        }
+    }  
+    p {
+        text-align: start;
+        font: var(--text-sm);
+        color: var(--color-text-secondary);
+        line-height: 1.2rem;
+    }
+}

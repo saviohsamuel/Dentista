@@ -1,0 +1,37 @@
+#faq {
+  padding-inline: 1.25rem; 
+  display: flex;
+  position: relative;
+  .subtitle {
+    text-align: center;
+  }
+}
+.container__faq {
+  display: flex;
+  margin-top: 30px;
+}
+details {
+  width: 650px;
+  p {
+    margin-top: 10px;
+  }
+}
+.custom-arrow summary {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  padding-right: 25px;
+}
+.custom-arrow summary::-webkit-details-marker {
+  display: none;
+}
+.custom-arrow summary::after {
+  content: "▼";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: var(--color-text-btn);
+  transition: transform 0.3s ease;
+}

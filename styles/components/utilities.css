@@ -1,0 +1,21 @@
+@import url('./btns.css');
+@import url('./tags.css');
+
+.f-a-center {
+    align-items: center;
+}
+.f-j-center {
+    justify-content: center;
+}
+.f-d-column {
+    flex-direction: column;
+}
+.gap {
+    gap: 1rem;
+}
+.gap-sm {
+    gap: .625rem;
+}
+.gap-xl {
+    gap: 2.1rem;
+}
